@@ -1,10 +1,15 @@
 {
   "name": "slidev-theme-smile",
   "version": "0.1.0",
-  "keywords": [
-    "slidev-theme",
-    "slidev"
-  ],
+  "description": "Smile theme for Slidev",
+  "homepage": "https://github.com/Smile-SA/slidev-theme-smile",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Smile-SA/slidev-theme-smile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Smile-SA/slidev-theme-smile/issues"
+  },
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
@@ -13,6 +18,20 @@
     "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'feat(docs): updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'feat(docs): updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'feat(docs): updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "author": {
+    "name": "Tony Cabaye",
+    "email": "tonai59+github@gmail.com",
+    "url": "https://github.com/tonai"
+  },
+  "license": "GPL",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
   },
   "dependencies": {
     "@slidev/client": "^0.28.1",
@@ -25,10 +44,6 @@
     "@iconify-json/uim": "^1.0.2",
     "@slidev/cli": "^0.28.1",
     "generate-changelog": "^1.8.0"
-  },
-  "engines": {
-    "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
   },
   "slidev": {
     "colorSchema": "both",
