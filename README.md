@@ -42,7 +42,7 @@ Usage:
 
 Parameters:
 
-* `type` (type: `'info' | 'warning' | 'error'`, default: `info`): Type for the alert
+* type` (type: `'info' | 'warning' | 'error'`, default: `info`): Type for the alert
 
 ### `Icon`
 
@@ -55,64 +55,74 @@ Usage:
 
 Parameters:
 
-* `class` (type: `string`): HTML class to apply to the icon
-* `color` (type: `'primary' | 'secondary'`): Color of the icon
-* `icon` (type: `string`, required): The icon name
+* class` (type: `string`): HTML class to apply to the icon
+* color` (type: `'primary' | 'secondary'`): Color of the icon
+* icon` (type: `string`, required): The icon name
 
 Available icons:
 
-* `outlined`:
-  * `network-outlined`: <svg class="icon"><use xlink:href="#icon-network-outlined"></use></svg>
-  * `chess-outlined`: <svg class="icon"><use xlink:href="#icon-chess-outlined"></use></svg>
-  * `eye-outlined`: <svg class="icon"><use xlink:href="#icon-eye-outlined"></use></svg>
-  * `cloud-1-outlined`: <svg class="icon"><use xlink:href="#icon-cloud-1-outlined"></use></svg>
-  * `padlock-outlined`: <svg class="icon"><use xlink:href="#icon-padlock-outlined"></use></svg>
-  * `target-outlined`: <svg class="icon"><use xlink:href="#icon-target-outlined"></use></svg>
-  * `cloud-2-outlined`: <svg class="icon"><use xlink:href="#icon-cloud-2-outlined"></use></svg>
-  * `100-outlined`: <svg class="icon"><use xlink:href="#icon-100-outlined"></use></svg>
-  * `key-outlined`: <svg class="icon"><use xlink:href="#icon-key-outlined"></use></svg>
-  * `users-outlined`: <svg class="icon"><use xlink:href="#icon-users-outlined"></use></svg>
-  * `chat-outlined`: <svg class="icon"><use xlink:href="#icon-chat-outlined"></use></svg>
-  * `gear-outlined`: <svg class="icon"><use xlink:href="#icon-gear-outlined"></use></svg>
-  * `stars-outlined`: <svg class="icon"><use xlink:href="#icon-stars-outlined"></use></svg>
-  * `lightning-outlined`: <svg class="icon"><use xlink:href="#icon-lightning-outlined"></use></svg>
-  * `rocket-outlined`: <svg class="icon"><use xlink:href="#icon-rocket-outlined"></use></svg>
-  * `cart-outlined`: <svg class="icon"><use xlink:href="#icon-cart-outlined"></use></svg>
-  * `bulb-outlined`: <svg class="icon"><use xlink:href="#icon-bulb-outlined"></use></svg>
-  * `desktop-outlined`: <svg class="icon"><use xlink:href="#icon-desktop-outlined"></use></svg>
-  * `bulb-outlined`: <svg class="icon"><use xlink:href="#icon-bulb-outlined"></use></svg>
-  * `wave-outlined`: <svg class="icon"><use xlink:href="#icon-wave-outlined"></use></svg>
-  * `ok-outlined`: <svg class="icon"><use xlink:href="#icon-ok-outlined"></use></svg>
-  * `earth-outlined`: <svg class="icon"><use xlink:href="#icon-earth-outlined"></use></svg>
-  * `links-outlined`: <svg class="icon"><use xlink:href="#icon-links-outlined"></use></svg>
-  * `check-outlined`: <svg class="icon"><use xlink:href="#icon-check-outlined"></use></svg>
-  * `hand-victory-outlined`: <svg class="icon"><use xlink:href="#icon-hand-victory-outlined"></use></svg>
-  * `hand-heart-outlined`: <svg class="icon"><use xlink:href="#icon-hand-heart-outlined"></use></svg>
-  * `hand-ok-outlined`: <svg class="icon"><use xlink:href="#icon-hand-ok-outlined"></use></svg>
-  * `hand-thumb-up-outlined`: <svg class="icon"><use xlink:href="#icon-hand-thumb-up-outlined"></use></svg>
-  * `smile-outlined`: <svg class="icon"><use xlink:href="#icon-smile-outlined"></use></svg>
-  * `smile-eyeglasses-outlined`: <svg class="icon"><use xlink:href="#icon-smile-eyeglasses-outlined"></use></svg>
-  * `smile-heart-outlined`: <svg class="icon"><use xlink:href="#icon-smile-heart-outlined"></use></svg>
-  * `smile-laughing-outlined`: <svg class="icon"><use xlink:href="#icon-smile-laughing-outlined"></use></svg>
-  * `smile-grin-outlined`: <svg class="icon"><use xlink:href="#icon-smile-grin-outlined"></use></svg>
-  * `smile-kiss-outlined`: <svg class="icon"><use xlink:href="#icon-smile-kiss-outlined"></use></svg>
-  * `smile-confused-outlined`: <svg class="icon"><use xlink:href="#icon-smile-confused-outlined"></use></svg>
-* `filled`:
-  * `hourglass-filled`: <svg class="icon"><use xlink:href="#icon-hourglass-filled"></use></svg>
-  * `cloud-filled`: <svg class="icon"><use xlink:href="#icon-cloud-filled"></use></svg>
-  * `cart-filled`: <svg class="icon"><use xlink:href="#icon-cart-filled"></use></svg>
-  * `cup-filled`: <svg class="icon"><use xlink:href="#icon-cup-filled"></use></svg>
-  * `chess-filled`: <svg class="icon"><use xlink:href="#icon-chess-filled"></use></svg>
-  * `chat-filled`: <svg class="icon"><use xlink:href="#icon-chat-filled"></use></svg>
-  * `lightning-filled`: <svg class="icon"><use xlink:href="#icon-lightning-filled"></use></svg>
-  * `user-filled`: <svg class="icon"><use xlink:href="#icon-user-filled"></use></svg>
-  * `rocket-filled`: <svg class="icon"><use xlink:href="#icon-rocket-filled"></use></svg>
-  * `heart-filled`: <svg class="icon"><use xlink:href="#icon-heart-filled"></use></svg>
-  * `laptop-filled`: <svg class="icon"><use xlink:href="#icon-laptop-filled"></use></svg>
-  * `bulb-filled`: <svg class="icon"><use xlink:href="#icon-bulb-filled"></use></svg>
-  * `gear-filled`: <svg class="icon"><use xlink:href="#icon-gear-filled"></use></svg>
-  * `desktop-filled`: <svg class="icon"><use xlink:href="#icon-desktop-filled"></use></svg>
-  * `hand-ok-filled`: <svg class="icon"><use xlink:href="#icon-hand-ok-filled"></use></svg>
+<ul dir="auto">
+  <li>
+    <code>outlined</code>:
+    <ul dir="auto">
+      <li><code>network-outlined</code>: <svg class="icon"><use xlink:href="#icon-network-outlined"></use></svg></li>
+      <li><code>chess-outlined</code>: <svg class="icon"><use xlink:href="#icon-chess-outlined"></use></svg></li>
+      <li><code>eye-outlined</code>: <svg class="icon"><use xlink:href="#icon-eye-outlined"></use></svg></li>
+      <li><code>cloud-1-outlined</code>: <svg class="icon"><use xlink:href="#icon-cloud-1-outlined"></use></svg></li>
+      <li><code>padlock-outlined</code>: <svg class="icon"><use xlink:href="#icon-padlock-outlined"></use></svg></li>
+      <li><code>target-outlined</code>: <svg class="icon"><use xlink:href="#icon-target-outlined"></use></svg></li>
+      <li><code>cloud-2-outlined</code>: <svg class="icon"><use xlink:href="#icon-cloud-2-outlined"></use></svg></li>
+      <li><code>100-outlined</code>: <svg class="icon"><use xlink:href="#icon-100-outlined"></use></svg></li>
+      <li><code>key-outlined</code>: <svg class="icon"><use xlink:href="#icon-key-outlined"></use></svg></li>
+      <li><code>users-outlined</code>: <svg class="icon"><use xlink:href="#icon-users-outlined"></use></svg></li>
+      <li><code>chat-outlined</code>: <svg class="icon"><use xlink:href="#icon-chat-outlined"></use></svg></li>
+      <li><code>gear-outlined</code>: <svg class="icon"><use xlink:href="#icon-gear-outlined"></use></svg></li>
+      <li><code>stars-outlined</code>: <svg class="icon"><use xlink:href="#icon-stars-outlined"></use></svg></li>
+      <li><code>lightning-outlined</code>: <svg class="icon"><use xlink:href="#icon-lightning-outlined"></use></svg></li>
+      <li><code>rocket-outlined</code>: <svg class="icon"><use xlink:href="#icon-rocket-outlined"></use></svg></li>
+      <li><code>cart-outlined</code>: <svg class="icon"><use xlink:href="#icon-cart-outlined"></use></svg></li>
+      <li><code>bulb-outlined</code>: <svg class="icon"><use xlink:href="#icon-bulb-outlined"></use></svg></li>
+      <li><code>desktop-outlined</code>: <svg class="icon"><use xlink:href="#icon-desktop-outlined"></use></svg></li>
+      <li><code>bulb-outlined</code>: <svg class="icon"><use xlink:href="#icon-bulb-outlined"></use></svg></li>
+      <li><code>wave-outlined</code>: <svg class="icon"><use xlink:href="#icon-wave-outlined"></use></svg></li>
+      <li><code>ok-outlined</code>: <svg class="icon"><use xlink:href="#icon-ok-outlined"></use></svg></li>
+      <li><code>earth-outlined</code>: <svg class="icon"><use xlink:href="#icon-earth-outlined"></use></svg></li>
+      <li><code>links-outlined</code>: <svg class="icon"><use xlink:href="#icon-links-outlined"></use></svg></li>
+      <li><code>check-outlined</code>: <svg class="icon"><use xlink:href="#icon-check-outlined"></use></svg></li>
+      <li><code>hand-victory-outlined</code>: <svg class="icon"><use xlink:href="#icon-hand-victory-outlined"></use></svg></li>
+      <li><code>hand-heart-outlined</code>: <svg class="icon"><use xlink:href="#icon-hand-heart-outlined"></use></svg></li>
+      <li><code>hand-ok-outlined</code>: <svg class="icon"><use xlink:href="#icon-hand-ok-outlined"></use></svg></li>
+      <li><code>hand-thumb-up-outlined</code>: <svg class="icon"><use xlink:href="#icon-hand-thumb-up-outlined"></use></svg></li>
+      <li><code>smile-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-outlined"></use></svg></li>
+      <li><code>smile-eyeglasses-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-eyeglasses-outlined"></use></svg></li>
+      <li><code>smile-heart-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-heart-outlined"></use></svg></li>
+      <li><code>smile-laughing-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-laughing-outlined"></use></svg></li>
+      <li><code>smile-grin-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-grin-outlined"></use></svg></li>
+      <li><code>smile-kiss-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-kiss-outlined"></use></svg></li>
+      <li><code>smile-confused-outlined</code>: <svg class="icon"><use xlink:href="#icon-smile-confused-outlined"></use></svg></li>
+    </ul>
+  </li>
+  <li>
+    <code>filled</code>:
+    <ul dir="auto">
+      <li><code>hourglass-filled</code>: <svg class="icon"><use xlink:href="#icon-hourglass-filled"></use></svg></li>
+      <li><code>cloud-filled</code>: <svg class="icon"><use xlink:href="#icon-cloud-filled"></use></svg></li>
+      <li><code>cart-filled</code>: <svg class="icon"><use xlink:href="#icon-cart-filled"></use></svg></li>
+      <li><code>cup-filled</code>: <svg class="icon"><use xlink:href="#icon-cup-filled"></use></svg></li>
+      <li><code>chess-filled</code>: <svg class="icon"><use xlink:href="#icon-chess-filled"></use></svg></li>
+      <li><code>chat-filled</code>: <svg class="icon"><use xlink:href="#icon-chat-filled"></use></svg></li>
+      <li><code>lightning-filled</code>: <svg class="icon"><use xlink:href="#icon-lightning-filled"></use></svg></li>
+      <li><code>user-filled</code>: <svg class="icon"><use xlink:href="#icon-user-filled"></use></svg></li>
+      <li><code>rocket-filled</code>: <svg class="icon"><use xlink:href="#icon-rocket-filled"></use></svg></li>
+      <li><code>heart-filled</code>: <svg class="icon"><use xlink:href="#icon-heart-filled"></use></svg></li>
+      <li><code>laptop-filled</code>: <svg class="icon"><use xlink:href="#icon-laptop-filled"></use></svg></li>
+      <li><code>bulb-filled</code>: <svg class="icon"><use xlink:href="#icon-bulb-filled"></use></svg></li>
+      <li><code>gear-filled</code>: <svg class="icon"><use xlink:href="#icon-gear-filled"></use></svg></li>
+      <li><code>desktop-filled</code>: <svg class="icon"><use xlink:href="#icon-desktop-filled"></use></svg></li>
+      <li><code>hand-ok-filled</code>: <svg class="icon"><use xlink:href="#icon-hand-ok-filled"></use></svg></li>
+    </ul>
+  </li>
+</ul>
 
 ## Contributing
 
