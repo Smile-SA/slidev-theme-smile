@@ -1,0 +1,270 @@
+:root {
+  --color-primary: #ff8054;
+  --color-secondary: #3b72ff;
+  --color-info: #26bc94;
+  --color-warning: #ffc932;
+  --color-error: #ee3c3c;
+
+  --title-font-family: "Roboto", Arial, sans-serif;
+  --body-font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+  --code-font-family: "Roboto Mono", monospace;
+
+  --font-size: 12px;
+
+  --slidev-theme-primary: var(--color-primary);
+  --slidev-code-font-family: var(--code-font-family);
+  --slidev-code-font-size: var(--font-size);
+  --slidev-code-padding: 8px;
+  --slidev-code-line-height: 16px;
+}
+
+html {
+  font-family: var(--body-font-family);
+  font-size: var(--font-size);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-info {
+  color: var(--color-info);
+}
+
+.color-warning {
+  color: var(--color-warning);
+}
+
+.color-error {
+  color: var(--color-error);
+}
+
+.light {
+  --text-primary: #000000;
+  --text-secondary: rgba(0,0,0,0.67); /* 555555 => ~33% opacity  */
+  --text-tertiary: rgba(0,0,0,0.5); /* #7f7f7f => 50% opacity */
+  --text-border: rgba(0,0,0,0.1); /* #ededed => ~90% opacity */
+}
+
+.dark {
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255,255,255,0.67);
+  --text-tertiary: rgba(255,255,255,0.5);
+  --text-border: rgba(255,255,255,0.1);
+}
+
+.shiki-light {
+  background-color: #f7f7f7 !important;
+}
+
+.slidev-layout {
+  color: var(--text-primary);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--title-font-family);
+  }
+
+  h2:first-child,
+  h3:first-child {
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      background-color: var(--color-primary);
+    }
+  }
+
+  h2:first-child {
+    margin-bottom: 3.5rem;
+
+    &::after {
+      bottom: -2rem;
+      width: 10rem;
+      height: 0.5rem;
+      border-radius: 0.25rem;
+    }
+  }
+
+  h3:first-child {
+    margin-bottom: 3rem;
+
+    &::after {
+      bottom: -1.5rem;
+      width: 8rem;
+      height: 0.4rem;
+      border-radius: 0.2rem;
+    }
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 57.12px;
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 43.93px;
+  }
+
+  h3 {
+    font-weight: 900;
+    font-size: 33.8px;
+  }
+
+  h4 {
+    font-weight: 900;
+    font-size: 26px;
+  }
+
+  h5 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  a {
+    color: var(--slidev-theme-primary);
+    font-weight: 600;
+    border-style: unset;
+  }
+
+  p,
+  ul,
+  .slidev-toc {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul ul,
+  ul ol,
+  ol ul,
+  ol ol,
+  .slidev-toc ul {
+    margin: 0;
+  }
+
+  ul li {
+    list-style-type: disc;
+  }
+
+  ol li {
+    list-style-type: disc;
+  }
+
+  ::marker {
+    color: var(--slidev-theme-primary)
+  }
+
+  blockquote {
+    position: relative;
+    border: 0;
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+    &::before {
+      content: '“';
+      display: block;
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+      font-size: 8rem;
+      color: var(--color-secondary);
+    }
+
+    + p {
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+  }
+
+  .slidev-toc {
+    text-align: left;
+    column-gap: 2rem;
+    margin-top: 2rem;
+
+    a {
+      color: var(--text-primary);
+    }
+
+    .router-link-active {
+      color: var(--color-primary);
+    }
+  }
+
+  .slidev-toc-item {
+    line-height: 1.5rem;
+  }
+}
+
+.slidev-layout.intro,
+.slidev-layout.center,
+.slidev-layout.toc-center {
+  .slidev-toc {
+    display: inline-block;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid dark text-center;
+  color: var(--text-primary);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    &::after {
+      display: none;
+    }
+  }
+  
+  a,
+  ::marker  {
+    color: var(--text-primary);
+  }
+}
+
+.slidev-layout.center {
+  text-align: center;
+}
+
+.slidev-layout.cover {
+  background-color: var(--color-primary);
+  background-image: url(Logo_smile_blanc_bleu.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+
+  h1 {
+    @apply mt-50;
+  }
+
+  h1 + p {
+    @apply mt-2;
+  }
+
+  .icon {
+    color: var(--color-secondary);
+  }
+}
+
+.slidev-layout.intro {
+  background-color: var(--color-secondary);
+
+  .icon {
+    color: var(--color-primary);
+  }
+}
