@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-smile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -20,7 +20,8 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.0.12",
     "@iconify-json/uim": "^1.0.2",
-    "@slidev/cli": "^0.28.1"
+    "@slidev/cli": "^0.28.1",
+    "generate-changelog": "^1.8.0"
   },
   "engines": {
     "node": ">=14.0.0",
