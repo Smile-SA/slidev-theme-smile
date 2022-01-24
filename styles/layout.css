@@ -72,6 +72,7 @@ html {
     font-family: var(--title-font-family);
   }
 
+  h1:first-child,
   h2:first-child,
   h3:first-child {
     position: relative;
@@ -82,6 +83,17 @@ html {
       position: absolute;
       left: 0;
       background-color: var(--color-primary);
+    }
+  }
+
+  h1:first-child {
+    margin-bottom: 4rem;
+
+    &::after {
+      bottom: -2.5rem;
+      width: 12rem;
+      height: 0.6rem;
+      border-radius: 0.3rem;
     }
   }
 
@@ -190,6 +202,7 @@ html {
   }
 
   .slidev-toc {
+    display: inline-block;
     text-align: left;
     column-gap: 2rem;
     margin-top: 2rem;
@@ -208,12 +221,11 @@ html {
   }
 }
 
-.slidev-layout.intro,
-.slidev-layout.center,
-.slidev-layout.toc-center {
-  .slidev-toc {
-    display: inline-block;
-  }
+.slidev-layout.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .slidev-layout.cover,
@@ -243,13 +255,11 @@ html {
 
 .slidev-layout.cover {
   background-color: var(--color-primary);
-  background-image: url(Logo_smile_blanc_bleu.svg);
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: 50% 25%;
 
-  h1 {
-    @apply mt-50;
+  .logo {
+    display: inline-block;
+    margin-bottom: 6rem;
+    width: 50%;
   }
 
   h1 + p {

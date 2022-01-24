@@ -24,6 +24,6 @@
 
 <template>
   <svg class="icon" :class="{ [props.class]: props.class, [`icon-${icon}`]: icon }" :style="style">
-    <use :xlink:href="`symbol-defs.svg#icon-${icon}`"></use>
+    <use :xlink:href="`#icon-${icon}`"></use>
   </svg>
 </template>
