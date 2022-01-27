@@ -1,3 +1,9 @@
+#### 0.2.1 (2022-01-27)
+
+##### Bug Fixes
+
+*  code and images styles ([eea3569b](https://github.com/Smile-SA/slidev-theme-smile/commit/eea3569b205ba05490597794fae6cd45c4971676))
+
 ### 0.2.0 (2022-01-24)
 
 ##### Bug Fixes
