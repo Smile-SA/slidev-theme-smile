@@ -1,3 +1,9 @@
+#### 0.2.2 (2022-01-27)
+
+##### Bug Fixes
+
+*  blockquote styles ([1d3721f0](https://github.com/Smile-SA/slidev-theme-smile/commit/1d3721f01f82b243adaaf35e1ac072a31916fad1))
+
 #### 0.2.1 (2022-01-27)
 
 ##### Bug Fixes
