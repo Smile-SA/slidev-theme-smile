@@ -13,9 +13,9 @@
 
   --slidev-theme-primary: var(--color-primary);
   --slidev-code-font-family: var(--code-font-family);
-  --slidev-code-font-size: var(--font-size);
-  --slidev-code-padding: 8px;
-  --slidev-code-line-height: 16px;
+  --slidev-code-font-size: 11px;
+  --slidev-code-padding: 6px;
+  --slidev-code-line-height: 14px;
 }
 
 html {
@@ -200,6 +200,10 @@ html {
       line-height: 1rem;
     }
   }
+  
+  img {
+    margin: auto;
+  }
 
   .slidev-toc {
     display: inline-block;
@@ -219,13 +223,6 @@ html {
   .slidev-toc-item {
     line-height: 1.5rem;
   }
-}
-
-.slidev-layout.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .slidev-layout.cover,
