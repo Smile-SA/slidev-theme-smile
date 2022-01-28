@@ -75,7 +75,6 @@ html.light .dark {
   h4,
   h5 {
     font-family: var(--title-font-family);
-    text-align: left;
 
     img {
       display: inline-block;
@@ -238,7 +237,7 @@ html.light .dark {
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid dark text-center;
-  color: var(--text-primary);
+  color: #ffffff;;
 
   h1,
   h2,
@@ -252,12 +251,20 @@ html.light .dark {
   
   a,
   ::marker  {
-    color: var(--text-primary);
+    color: #ffffff;;
   }
 }
 
 .slidev-layout.center {
   text-align: center;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-align: left;
+  }
 }
 
 .slidev-layout.cover {
