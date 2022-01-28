@@ -62,6 +62,8 @@
       <mdi-alert-outline v-if="type == 'warning'" />
       <mdi-alert-circle-outline v-if="type == 'error'" />
     </span>
-    <slot></slot>
+    <div>
+      <slot></slot>
+    </div>
   </div>
 </template>
