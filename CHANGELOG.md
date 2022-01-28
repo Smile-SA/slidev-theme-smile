@@ -1,3 +1,9 @@
+#### 0.2.4 (2022-01-28)
+
+##### Bug Fixes
+
+*  cover and intro layout styles + title ([8edc0d5a](https://github.com/Smile-SA/slidev-theme-smile/commit/8edc0d5a824c37424ba28dc444f38f2db02292d6))
+
 #### 0.2.3 (2022-01-28)
 
 ##### Bug Fixes
