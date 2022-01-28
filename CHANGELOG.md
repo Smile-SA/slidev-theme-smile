@@ -1,3 +1,9 @@
+#### 0.2.3 (2022-01-28)
+
+##### Bug Fixes
+
+*  alert component and some styles ([456d4576](https://github.com/Smile-SA/slidev-theme-smile/commit/456d4576e557ea9491e9e8e49cab9478064ce7ad))
+
 #### 0.2.2 (2022-01-27)
 
 ##### Bug Fixes
