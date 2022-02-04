@@ -1,3 +1,9 @@
+#### 0.2.5 (2022-02-04)
+
+##### New Features
+
+*  add progress custom styles ([23ebc1d1](https://github.com/Smile-SA/slidev-theme-smile/commit/23ebc1d133af1f66d66c4dc29d698c85200ef5b4))
+
 #### 0.2.4 (2022-01-28)
 
 ##### Bug Fixes
