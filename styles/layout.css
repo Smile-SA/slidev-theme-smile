@@ -251,7 +251,7 @@ html.light .dark {
   
   a,
   ::marker  {
-    color: #ffffff;;
+    color: #ffffff;
   }
 }
 
@@ -291,4 +291,10 @@ html.light .dark {
   .icon {
     color: var(--color-primary);
   }
+}
+
+.progress--intro {
+  --active-color: var(--color-secondary);
+  --stroke-color: #ffffff;
+  color: white;
 }
