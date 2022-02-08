@@ -1,3 +1,9 @@
+#### 0.2.6 (2022-02-08)
+
+##### New Features
+
+*  size images in titles + progress tooltip background + css->pcss renaming ([2082640a](https://github.com/Smile-SA/slidev-theme-smile/commit/2082640a3da15670bdc1c24167e3de4e75f1b233))
+
 #### 0.2.5 (2022-02-04)
 
 ##### New Features
