@@ -78,6 +78,7 @@ html.light .dark {
 
     img {
       display: inline-block;
+      height: 1em;
     }
   }
 
@@ -209,7 +210,7 @@ html.light .dark {
       line-height: 1.2em;
     }
   }
-  
+
   img {
     margin: auto;
   }
@@ -226,6 +227,11 @@ html.light .dark {
 
     .router-link-active {
       color: var(--color-primary);
+    }
+
+    img {
+      display: inline-block;
+      height: 1em;
     }
   }
 
@@ -248,7 +254,7 @@ html.light .dark {
       display: none;
     }
   }
-  
+
   a,
   ::marker  {
     color: #ffffff;
@@ -297,4 +303,20 @@ html.light .dark {
   --active-color: var(--color-secondary);
   --stroke-color: #ffffff;
   color: white;
+}
+.progress__tooltip {
+  width: max-content;
+  top: 5px;
+  padding: 0;
+  bottom: initial;
+  background: white;
+
+  .dark & {
+    background: black;
+  }
+
+  img {
+    display: inline-block;
+    height: 1em;
+  }
 }
