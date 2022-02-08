@@ -1,3 +1,9 @@
+### 0.3.0 (2022-02-08)
+
+##### New Features
+
+*  add custom styles for pager ([862a6059](https://github.com/Smile-SA/slidev-theme-smile/commit/862a6059c1d1558dbd56bf8c5a6331b25e2714e6))
+
 #### 0.2.6 (2022-02-08)
 
 ##### New Features
