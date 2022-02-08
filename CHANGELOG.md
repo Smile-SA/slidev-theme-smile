@@ -1,3 +1,9 @@
+#### 0.3.1 (2022-02-08)
+
+##### Other Changes
+
+*  blue for intro) ([cffd2ff6](https://github.com/Smile-SA/slidev-theme-smile/commit/cffd2ff6fb2852541d61097389850e108d5b1106))
+
 ### 0.3.0 (2022-02-08)
 
 ##### New Features
