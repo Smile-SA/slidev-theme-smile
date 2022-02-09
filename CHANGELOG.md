@@ -1,3 +1,9 @@
+#### 0.3.2 (2022-02-09)
+
+##### Bug Fixes
+
+*  progress background ([fbedde3f](https://github.com/Smile-SA/slidev-theme-smile/commit/fbedde3ff6e05b6cb736091f2b4df650c1283e2f))
+
 #### 0.3.1 (2022-02-08)
 
 ##### Other Changes
