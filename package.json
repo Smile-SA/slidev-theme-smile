@@ -34,14 +34,13 @@
     "slidev": ">=0.19.3"
   },
   "dependencies": {
+    "@iconify-json/mdi": "^1.0.12",
     "@slidev/client": "^0.28.1",
     "@slidev/types": "^0.28.1",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.0.12",
-    "@iconify-json/uim": "^1.0.2",
     "@slidev/cli": "^0.28.1",
     "generate-changelog": "^1.8.0"
   },
