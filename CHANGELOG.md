@@ -1,3 +1,13 @@
+#### 0.3.3 (2022-02-16)
+
+##### Bug Fixes
+
+*  add @iconify-json/mdi as dependency ([dcf9e67d](https://github.com/Smile-SA/slidev-theme-smile/commit/dcf9e67d47ac518ff832f3245c3c261ea5460654))
+
+##### Other Changes
+
+*  add examples and fix doc ([dc0b8e95](https://github.com/Smile-SA/slidev-theme-smile/commit/dc0b8e95687117e21dc8913bb03eee67b5834e7a))
+
 #### 0.3.2 (2022-02-09)
 
 ##### Bug Fixes
