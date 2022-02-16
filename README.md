@@ -37,7 +37,7 @@ Display an alert box.
 
 Usage:
 ```vue
-<alert/>
+<alert>This is an info</alert>
 ```
 
 Parameters:
