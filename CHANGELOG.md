@@ -1,3 +1,17 @@
+### 0.4.0 (2022-02-25)
+
+##### New Features
+
+*  add 2 cols with title layout ([b1e85645](https://github.com/Smile-SA/slidev-theme-smile/commit/b1e8564543afdad0c0a9d0c9577cbf22be6e299c))
+
+##### Bug Fixes
+
+*  styles ([a625f475](https://github.com/Smile-SA/slidev-theme-smile/commit/a625f47542689596ffc59aa9be9c3a39149e7050))
+
+##### Other Changes
+
+*  update doc and example ([cc97de90](https://github.com/Smile-SA/slidev-theme-smile/commit/cc97de909bcdd515c30bb3ca5493ec487afdfdda))
+
 #### 0.3.3 (2022-02-16)
 
 ##### Bug Fixes
