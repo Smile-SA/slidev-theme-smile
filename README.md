@@ -76,6 +76,29 @@ Parameters:
 * `color` (type: `'white' | 'primary'`, default: `'white`): The main color of the logo
 * `iconColor` (type: `'primary' | 'secondary'`, default: `'primary'`): The color of the icons on the logo
 
+## Layouts
+
+### `two-cols-with-title`
+
+Display two columns with a top content for the title.
+
+Usage:
+```md
+---
+layout: two-cols-with-title
+---
+
+## Top title
+
+::left::
+
+Left col content
+
+::right::
+
+Right col content
+```
+
 ## Contributing
 
 - `npm install`

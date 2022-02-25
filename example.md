@@ -16,34 +16,56 @@ hideInToc: true
 <toc minDepth="2"/>
 
 ---
+layout: two-cols-with-title
+---
 
-## What is Slidev?
+## Lists
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+::left::
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+Unordered:
 
-<br>
-<br>
+* Item 1
+* Item 2
+  * SubItem 2.1
+  * SubItem 2.2
+    * SubSubItem 2.2.1
+    * SubSubItem 2.2.2
+      * SubSubSubItem 2.2.2.1
+      * SubSubSubItem 2.2.2.2
+        * SubSubSubSubItem 2.2.2.2.1
+        * SubSubSubSubItem 2.2.2.2.2
+        * SubSubSubSubItem 2.2.2.2.3
+      * SubSubSubItem 2.2.2.3
+    * SubSubItem 2.2.3
+  * SubItem 2.3
+* Item 3
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+::right::
 
+Ordered: 
+
+1. Item 1
+2. Item 2
+   1. SubItem 2.1
+   2. SubItem 2.2
+      1. SubSubItem 2.2.1
+      2. SubSubItem 2.2.2
+         1. SubSubSubItem 2.2.2.1
+         2. SubSubSubItem 2.2.2.2
+            1. SubSubSubSubItem 2.2.2.2.1
+            2. SubSubSubSubItem 2.2.2.2.2
+            3. SubSubSubSubItem 2.2.2.2.3
+         3. SubSubSubItem 2.2.2.3
+      3. SubSubItem 2.2.3
+   3. SubItem 2.3
+3. Item 3
 
 ---
 
-## Navigation
+## Table
 
-Hover on the bottom-left corner to see the navigation's controls panel
-
-### Keyboard Shortcuts
-
-|     |     |
+| Left | Right |
 | --- | --- |
 | <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
@@ -78,11 +100,11 @@ function editUser(id: number, update: Partial<User>) {
 
 ## `Alert` component
 
-<alert>This is an info</alert>
+<alert>This is an `info`</alert>
 
-<alert type="warning">This is a warning</alert>
+<alert type="warning">This is a `warning`</alert>
 
-<alert type="error">This is an error</alert>
+<alert type="error">This is an `error`</alert>
 
 ---
 
