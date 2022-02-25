@@ -21,7 +21,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.15;
+    pointer-events: none;
   }
 
   .alert--info {
