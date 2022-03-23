@@ -1,3 +1,9 @@
+#### 0.5.2 (2022-03-23)
+
+##### Bug Fixes
+
+*  scoped style inside two-cols-demo layout ([bec4e7ae](https://github.com/Smile-SA/slidev-theme-smile/commit/bec4e7ae8fef4ba0672e3a275a0286810094221a))
+
 #### 0.5.1 (2022-03-23)
 
 ##### Bug Fixes
