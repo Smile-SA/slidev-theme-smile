@@ -13,27 +13,9 @@ const props = defineProps({
       <div class="col-left" :class="props.class">
         <slot name="left" />
       </div>
-      <div class="col-right" :class="props.class" ref="right">
+      <div class="two-columns-demo__col-right col-right" :class="props.class">
         <slot name="right" />
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-.two-columns-demo {
-  display: flex;
-  flex-direction: column;
-}
-.two-columns-demo__cols {
-  flex: 1;
-  overflow: auto;
-}
-.col-right {
-  border-color: inherit;
-  border-width: 1px;
-  padding: 10px;
-  position: relative;
-  overflow: auto;
-}
-</style>
