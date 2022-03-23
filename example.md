@@ -1,5 +1,6 @@
 ---
 theme: ./
+layout: cover
 ---
 
 # Slidev Theme Smile
@@ -8,7 +9,6 @@ Presentation slides for developers
 
 ---
 layout: intro
-hideInToc: true
 ---
 
 ## Summary
@@ -73,28 +73,34 @@ Ordered:
 | <kbd>down</kbd> | next slide |
 
 ---
-layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+layout: two-cols-demo
 ---
 
 ## Code
 
-Use code snippets and get the highlighting directly!
+::left::
 
-```ts
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function editUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
+```html
+<button class="button" type="button">Click me</button>
+<script>
+var element = document.querySelector('.button');
+function callback(){
+  alert('Click!');
+};
+element.addEventListener('click', callback);
+</script>
 ```
+
+::right::
+
+<button class="button" type="button">Click me</button>
+<vScript>
+var element = document.querySelector('.button');
+function callback(){
+  alert('Click!');
+};
+element.addEventListener('click', callback);
+</vScript>
 
 ---
 
