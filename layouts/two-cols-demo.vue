@@ -27,6 +27,7 @@ const props = defineProps({
 }
 .two-columns-demo__cols {
   flex: 1;
+  overflow: auto;
 }
 .col-right {
   border-color: inherit;
