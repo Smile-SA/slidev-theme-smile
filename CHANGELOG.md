@@ -1,3 +1,9 @@
+### 0.5.0 (2022-03-23)
+
+##### New Features
+
+*  add demo layout ([cfdd6bb9](https://github.com/Smile-SA/slidev-theme-smile/commit/cfdd6bb974a53ffc9ea858872a50e119c241d17d))
+
 ### 0.4.0 (2022-02-25)
 
 ##### New Features
