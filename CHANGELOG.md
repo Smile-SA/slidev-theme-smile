@@ -1,3 +1,9 @@
+#### 0.5.1 (2022-03-23)
+
+##### Bug Fixes
+
+*  scoped style ([b02973a8](https://github.com/Smile-SA/slidev-theme-smile/commit/b02973a8e979a1b70ac55bcd0eac1f15c2e7b6bc))
+
 ### 0.5.0 (2022-03-23)
 
 ##### New Features
