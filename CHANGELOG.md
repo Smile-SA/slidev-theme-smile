@@ -1,3 +1,9 @@
+#### 0.5.3 (2022-03-24)
+
+##### Bug Fixes
+
+*  only add script tag for slides that are not in overview ([c06f1e10](https://github.com/Smile-SA/slidev-theme-smile/commit/c06f1e105b550a565d3c58e1270c7895c4aba90d))
+
 #### 0.5.2 (2022-03-23)
 
 ##### Bug Fixes
