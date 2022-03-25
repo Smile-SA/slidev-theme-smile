@@ -94,8 +94,8 @@ element.addEventListener('click', callback);
 ::right::
 
 <button class="button" type="button">Click me</button>
-<vScript>
-var element = document.querySelector('.button');
+<vScript scoped>
+const element = document.querySelector('.button');
 function callback(){
   alert('Click!');
 };
