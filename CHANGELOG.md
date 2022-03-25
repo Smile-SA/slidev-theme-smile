@@ -1,3 +1,9 @@
+### 0.6.0 (2022-03-25)
+
+##### New Features
+
+*  add scoped props for vScript ([754e713d](https://github.com/Smile-SA/slidev-theme-smile/commit/754e713d0d76b1d55ecac02edb488ce93c4f10c5))
+
 #### 0.5.3 (2022-03-24)
 
 ##### Bug Fixes
