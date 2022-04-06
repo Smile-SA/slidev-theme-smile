@@ -42,7 +42,27 @@ Usage:
 
 Parameters:
 
-* `type` (type: `'info' | 'warning' | 'error'`, default: `info`): Type for the alert
+* `type` (type: `'info' | 'warning' | 'error'`, default: `'info'`): Type for the alert
+
+### `DownloadButton`
+
+Display a button you can click to download a file.
+
+Usage (`demo.html` is in the `public` folder):
+```vue
+<DownloadButton filename="demo.html">Download code</DownloadButton>
+```
+
+Or:
+```vue
+<DownloadButton content="<h1>Hello world!</h3>" filename="demo.html">Download code</DownloadButton>
+```
+
+Parameters:
+
+* `content` (type: `string`): Content of the file
+* `filename` (type: `string`): Filename of the downloaded file and content file if `content` is empty.
+* `type` (type: `string`, default `'text/plain'`): mime type of the content
 
 ### `Icon` + `IconSprite`
 
@@ -76,6 +96,37 @@ Parameters:
 * `color` (type: `'white' | 'primary'`, default: `'white`): The main color of the logo
 * `iconColor` (type: `'primary' | 'secondary'`, default: `'primary'`): The color of the icons on the logo
 
+### `PaintWorklet`
+
+Import a CSS paintWorklet module.
+
+Usage:
+```vue
+<PaintWorklet src="https://unpkg.com/@houdini-modules/border-radius-reverse@0.0.1/border-radius-reverse.js"></PaintWorklet>
+```
+
+Parameters:
+
+* `src` (type: `string`): Source URL of the worklet to load.
+
+### `vScript`
+
+Like the classical `<script>` tag.
+
+Usage:
+```vue
+<vScript scoped type="module">
+  import intersection from 'https://cdn.jsdelivr.net/npm/lodash-es@4.17.21/intersection.js';
+  const result = intersection([1,2,3,4], [2,4,6,8]);
+  document.querySelector('#result').innerText = JSON.stringify(result);
+</vScript>
+```
+
+Parameters:
+
+* `scoped` (type: `boolean`): Wrap the content of the `<script>` with an IIFE to create an isolated scope.
+* Other attributes are passed down to the `<script>` tag.
+
 ## Layouts
 
 ### `two-cols-with-title`
@@ -83,7 +134,7 @@ Parameters:
 Display two columns with a top content for the title.
 
 Usage:
-```md
+~~~md
 ---
 layout: two-cols-with-title
 ---
@@ -97,7 +148,30 @@ Left col content
 ::right::
 
 Right col content
+~~~
+
+### `two-cols-demo`
+
+Display code on the left and demo on the right.
+
+Usage:
+~~~md
+---
+layout: two-cols-demo
+---
+
+## Demo
+
+::left::
+
+```html
+<button class="button" type="button">Click me</button>
 ```
+
+::right::
+
+<button class="button" type="button">Click me</button>
+~~~
 
 ## Contributing
 
