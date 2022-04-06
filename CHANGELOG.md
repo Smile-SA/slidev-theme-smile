@@ -1,3 +1,9 @@
+### 0.7.0 (2022-04-06)
+
+##### New Features
+
+*  add DownloadButton component. ([d658143d](https://github.com/Smile-SA/slidev-theme-smile/commit/d658143ded1323a7806f6419ca731ab7331564bf))
+
 ### 0.6.0 (2022-03-25)
 
 ##### New Features
