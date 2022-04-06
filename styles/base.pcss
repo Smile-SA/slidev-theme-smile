@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #ff8054;
+  --color-secondary: #3b72ff;
+  --color-info: #26bc94;
+  --color-warning: #ffc932;
+  --color-error: #ee3c3c;
+
+  --title-font-family: "Roboto", Arial, sans-serif;
+  --body-font-family: "Helvetica Neue", "Roboto", Arial, sans-serif;
+  --code-font-family: "Roboto Mono", monospace;
+
+  --font-size: 12px;
+
+  --slidev-theme-primary: var(--color-primary);
+  --slidev-code-font-family: var(--code-font-family);
+  --slidev-code-font-size: 11px;
+  --slidev-code-padding: 6px;
+  --slidev-code-line-height: 14px;
+}
+
+html {
+  font-family: var(--body-font-family);
+  font-size: var(--font-size);
+}
+
+html.light {
+  --text-primary: #000000;
+  --text-secondary: rgba(0,0,0,0.67); /* 555555 => ~33% opacity  */
+  --text-tertiary: rgba(0,0,0,0.5); /* #7f7f7f => 50% opacity */
+  --text-border: rgba(0,0,0,0.1); /* #ededed => ~90% opacity */
+  --bg-code: rgb(247, 247, 247);
+}
+
+html.dark {
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255,255,255,0.67);
+  --text-tertiary: rgba(255,255,255,0.5);
+  --text-border: rgba(255,255,255,0.1);
+  --bg-code: rgb(30, 30, 30);
+}
+
+html.dark .light,
+html.light .dark {
+  display: none;
+}
+
+.shiki {
+  background-color: var(--bg-code) !important;
+}

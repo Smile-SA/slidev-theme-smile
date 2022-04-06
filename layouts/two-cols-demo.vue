@@ -10,7 +10,7 @@ const props = defineProps({
   <div class="slidev-layout two-columns-demo">
     <slot />
     <div class="two-columns-demo__cols grid grid-cols-2">
-      <div class="col-left" :class="props.class">
+      <div class="two-columns-demo__col-left col-left" :class="props.class">
         <slot name="left" />
       </div>
       <div class="two-columns-demo__col-right col-right" :class="props.class">

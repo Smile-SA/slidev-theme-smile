@@ -91,6 +91,8 @@ element.addEventListener('click', callback);
 </script>
 ```
 
+<DownloadButton filename="demo.html">Download code</DownloadButton>
+
 ::right::
 
 <button class="button" type="button">Click me</button>
