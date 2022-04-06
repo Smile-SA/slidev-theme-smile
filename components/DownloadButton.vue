@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const props = defineProps<{
   content?: string;
-  filename?: string;
+  filename: string;
   type?: string;
 }>();
-const { content, filename = 'file', type = 'text/plain' } = props
+const { content, filename, type = 'text/plain' } = props
 
 function handleClick() {
   if (content) {
