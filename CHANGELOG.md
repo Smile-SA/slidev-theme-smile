@@ -1,3 +1,14 @@
+#### 0.7.1 (2022-04-08)
+
+##### Bug Fixes
+
+*  use relative units ([03c0fa45](https://github.com/Smile-SA/slidev-theme-smile/commit/03c0fa4544326b7fb64ab8b5d263acaf31e714c8))
+*  remove default filename. ([4b13aea7](https://github.com/Smile-SA/slidev-theme-smile/commit/4b13aea76b2eb4b8dc70f0469d3effa58596b597))
+
+##### Other Changes
+
+*  update README. ([9cee2590](https://github.com/Smile-SA/slidev-theme-smile/commit/9cee2590fda85202f9d5808452791f3b0022249c))
+
 ### 0.7.0 (2022-04-06)
 
 ##### New Features
