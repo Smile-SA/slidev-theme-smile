@@ -1,9 +1,16 @@
+<script lang="ts">
+export default {
+  inheritAttrs: false
+};
+</script>
+
 <script setup lang="ts">
 import { h, onMounted, ref, useAttrs, useSlots } from 'vue';
 
 const props = defineProps<{
-  scoped: boolean
+  scoped?: boolean
 }>();
+const { scoped = false } = props;
 
 const placeholderRef = ref();
 const isOverview = ref();
@@ -28,7 +35,7 @@ function renderPlaceholder() {
 
 function renderScript() {
   if (slots.default) {
-    return h('script', attrs, props.scoped ? ['+function(){', slots.default(), '}()'] : slots.default());
+    return h('script', attrs, scoped ? ['+function(){', slots.default(), '}()'] : slots.default());
   }
 }
 </script>

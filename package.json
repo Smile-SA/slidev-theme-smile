@@ -31,17 +31,13 @@
   "license": "GPL",
   "engines": {
     "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
+    "slidev": ">=0.32.1"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.0.12",
-    "@slidev/client": "^0.28.1",
-    "@slidev/types": "^0.28.1",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2"
+    "@iconify-json/mdi": "^1.1.16"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.28.1",
+    "@slidev/cli": "^0.32.1",
     "generate-changelog": "^1.8.0"
   },
   "slidev": {

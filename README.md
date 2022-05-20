@@ -124,7 +124,7 @@ Usage:
 
 Parameters:
 
-* `scoped` (type: `boolean`): Wrap the content of the `<script>` with an IIFE to create an isolated scope.
+* `scoped` (type: `boolean`, default: `false`): Wrap the content of the `<script>` with an IIFE to create an isolated scope.
 * Other attributes are passed down to the `<script>` tag.
 
 ## Layouts
