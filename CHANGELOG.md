@@ -1,3 +1,9 @@
+#### 0.7.2 (2022-05-20)
+
+##### Bug Fixes
+
+*  vScript warning ([648032d0](https://github.com/Smile-SA/slidev-theme-smile/commit/648032d0ba2b965d1c304c798e6a86c9d76e0fe0))
+
 #### 0.7.1 (2022-04-08)
 
 ##### Bug Fixes
