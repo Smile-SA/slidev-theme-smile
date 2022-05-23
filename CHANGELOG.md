@@ -1,3 +1,9 @@
+#### 0.7.3 (2022-05-23)
+
+##### Bug Fixes
+
+*  render component ([86fb8632](https://github.com/Smile-SA/slidev-theme-smile/commit/86fb8632292969970dd4193119aed0e87772742e))
+
 #### 0.7.2 (2022-05-20)
 
 ##### Bug Fixes
