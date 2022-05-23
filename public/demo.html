@@ -1,8 +1,8 @@
-<button class="button" type="button">Click me</button>
-<script>
-var element = document.querySelector('.button');
-function callback(){
-  alert('Click!');
-};
-element.addEventListener('click', callback);
+<pre id="result"></pre>
+<script type="module">
+  import intersection from './intersection.js';
+  const result = intersection([1,2,3,4], [2,4,6,8]);
+  document
+    .querySelector('#result')
+    .innerText = JSON.stringify(result);
 </script>

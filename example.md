@@ -73,38 +73,6 @@ Ordered:
 | <kbd>down</kbd> | next slide |
 
 ---
-layout: two-cols-demo
----
-
-## Code
-
-::left::
-
-```html
-<button class="button" type="button">Click me</button>
-<script>
-var element = document.querySelector('.button');
-function callback(){
-  alert('Click!');
-};
-element.addEventListener('click', callback);
-</script>
-```
-
-<DownloadButton filename="demo.html">Download code</DownloadButton>
-
-::right::
-
-<button class="button" type="button">Click me</button>
-<vScript scoped>
-const element = document.querySelector('.button');
-function callback(){
-  alert('Click!');
-};
-element.addEventListener('click', callback);
-</vScript>
-
----
 
 ## `Alert` component
 
@@ -195,10 +163,74 @@ element.addEventListener('click', callback);
 </div>
 
 ---
-layout: center
-class: "text-center"
+layout: two-cols-demo
 ---
 
-## Learn More
+## `vScript` component
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+::left::
+
+```html
+<pre id="result"></pre>
+<vScript type="module">
+  import intersection from './intersection.js';
+  const result = intersection([1,2,3,4], [2,4,6,8]);
+  document.querySelector('#result').innerText = JSON.stringify(result);
+</vScript>
+```
+
+<DownloadButton filename="demo.html">Download code</DownloadButton>
+
+::right::
+
+<pre id="result"></pre>
+<vScript type="module">
+  import intersection from 'https://cdn.jsdelivr.net/npm/lodash-es@4.17.21/intersection.js';
+  const result = intersection([1,2,3,4], [2,4,6,8]);
+  document.querySelector('#result').innerText = JSON.stringify(result);
+</vScript>
+
+---
+layout: two-cols-demo
+---
+
+### `PaintWorklet` component
+
+::left::
+
+```html
+<style>
+  .houdini {
+    width: 200px;
+    height: 200px;
+    --border-radius-reverse: 10;
+    --border-radius-reverse-color: #ef4444;
+    border:
+      calc(var(--border-radius-reverse) * 1px) solid transparent;
+    border-image: paint(border-radius-reverse);
+    border-image-slice: var(--border-radius-reverse);
+  }
+</style>
+<div class="houdini">
+  Hello world!
+</div>
+<PaintWorklet src="https://unpkg.com/@houdini-modules/border-radius-reverse@0.0.1/border-radius-reverse.js"></PaintWorklet>
+```
+
+::right::
+
+<style>
+  .houdini {
+    width: 200px;
+    height: 200px;
+    --border-radius-reverse: 10;
+    --border-radius-reverse-color: #ef4444;
+    border: calc(var(--border-radius-reverse) * 1px) solid transparent;
+    border-image: paint(border-radius-reverse);
+    border-image-slice: var(--border-radius-reverse);
+  }
+</style>
+<div class="houdini">
+  Hello world!
+</div>
+<PaintWorklet src="https://unpkg.com/@houdini-modules/border-radius-reverse@0.0.1/border-radius-reverse.js"></PaintWorklet>
