@@ -2,5 +2,9 @@
 import '@slidev/client/styles/layouts-base.css'
 import './base.pcss'
 import './layout.pcss'
-import './components.pcss'
+
+import './pager.pcss'
+import './poll.pcss'
+import './progress.pcss'
+
 import './helpers.pcss'

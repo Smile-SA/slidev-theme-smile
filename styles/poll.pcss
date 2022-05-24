@@ -1,0 +1,60 @@
+.slidev-layout {
+  .poll {
+    background-color: var(--bg-code);
+    border-radius: var(--slidev-code-radius) !important;
+    border-color: transparent;
+  }
+
+  .poll-title {
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  .poll-question__input {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.75rem;
+    @apply rounded-lg;
+  
+    &:hover {
+      background-color: var(--color-primary);
+      opacity: 0.8;
+    }
+  }
+
+  .poll-result {
+    @apply rounded-lg !pl-2 !pr-2;
+  }
+
+  .poll-result::before {
+    background-color: var(--color-secondary);
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    z-index: 0;
+    @apply rounded-md;
+  }
+
+  .poll-result__bar {
+    background-color: var(--color-primary);
+    z-index: 0;
+  }
+
+  .poll-result__answer,
+  .poll-result__values {
+    color: white;
+    z-index: 0;
+  }
+
+  .poll-result__values {
+    display: flex;
+  }
+
+  .poll-result__count {
+    font-size: 70%;
+    z-index: 0;
+    @apply ml-1;
+  }
+}
