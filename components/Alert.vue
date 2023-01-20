@@ -4,6 +4,19 @@
   withDefaults(defineProps<{ type?: 'info' | 'warning' | 'error' }>(), { type: 'info' });
 </script>
 
+<template>
+  <div class="alert" :class="`alert--${type}`">
+    <span class="alert__icon">
+      <mdi-information-outline v-if="type === 'info'" />
+      <mdi-alert-outline v-if="type === 'warning'" />
+      <mdi-alert-circle-outline v-if="type === 'error'" />
+    </span>
+    <div class="alert__content">
+      <slot></slot>
+    </div>
+  </div>
+</template>
+
 <style scoped>
   .alert {
     position: relative;
@@ -11,6 +24,8 @@
     padding: 15px;
     font-size: 0.875rem;
     line-height: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .alert::before {
@@ -56,15 +71,8 @@
   }
 </style>
 
-<template>
-  <div class="alert" :class="`alert--${type}`">
-    <span class="alert__icon">
-      <mdi-information-outline v-if="type == 'info'" />
-      <mdi-alert-outline v-if="type == 'warning'" />
-      <mdi-alert-circle-outline v-if="type == 'error'" />
-    </span>
-    <div>
-      <slot></slot>
-    </div>
-  </div>
-</template>
+<style>
+  .alert .alert__content > p {
+    margin: 0;
+  }
+</style>

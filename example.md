@@ -76,11 +76,23 @@ Ordered:
 
 ## `Alert` component
 
-<alert>This is an `info`</alert>
+<alert>
 
-<alert type="warning">This is a `warning`</alert>
+This is an `info`
 
-<alert type="error">This is an `error`</alert>
+</alert>
+
+<alert type="warning">
+
+This is a `warning`
+
+</alert>
+
+<alert type="error">
+
+This is an `error`
+
+</alert>
 
 ---
 

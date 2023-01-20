@@ -38,6 +38,11 @@ Display an alert box.
 Usage:
 ```vue
 <alert>This is an info</alert>
+<alert>
+
+Content with `markdown` should be surrounded by **blank lines**.
+
+</alert>
 ```
 
 Parameters:

@@ -34,10 +34,10 @@
     "slidev": ">=0.32.1"
   },
   "dependencies": {
-    "@iconify-json/mdi": "^1.1.16"
+    "@iconify-json/mdi": "^1.1.43"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.32.1",
+    "@slidev/cli": "0.x",
     "generate-changelog": "^1.8.0"
   },
   "slidev": {
