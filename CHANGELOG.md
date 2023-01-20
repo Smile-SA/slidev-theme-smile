@@ -1,3 +1,13 @@
+#### 0.7.4 (2023-01-20)
+
+##### New Features
+
+*  add poll component styles ([1d9a8c92](https://github.com/Smile-SA/slidev-theme-smile/commit/1d9a8c92cf6c73086dfcf2126f590abd2322fbd4))
+
+##### Bug Fixes
+
+*  Alert component when using markdown ([b7d852f8](https://github.com/Smile-SA/slidev-theme-smile/commit/b7d852f8cd188461b93a08045f9b30d3e8cefba4))
+
 #### 0.7.3 (2022-05-23)
 
 ##### Bug Fixes
