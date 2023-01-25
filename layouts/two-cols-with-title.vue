@@ -9,7 +9,7 @@ const props = defineProps({
 <template>
   <div class="slidev-layout two-columns-with-title">
     <slot />
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 gap-4">
       <div class="col-left" :class="props.class">
         <slot name="left" />
       </div>
@@ -17,5 +17,6 @@ const props = defineProps({
         <slot name="right" />
       </div>
     </div>
+    <slot name="bottom" />
   </div>
 </template>

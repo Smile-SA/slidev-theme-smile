@@ -35,11 +35,6 @@ Unordered:
       * SubSubSubItem 2.2.2.2
         * SubSubSubSubItem 2.2.2.2.1
         * SubSubSubSubItem 2.2.2.2.2
-        * SubSubSubSubItem 2.2.2.2.3
-      * SubSubSubItem 2.2.2.3
-    * SubSubItem 2.2.3
-  * SubItem 2.3
-* Item 3
 
 ::right::
 
@@ -55,11 +50,12 @@ Ordered:
          2. SubSubSubItem 2.2.2.2
             1. SubSubSubSubItem 2.2.2.2.1
             2. SubSubSubSubItem 2.2.2.2.2
-            3. SubSubSubSubItem 2.2.2.2.3
-         3. SubSubSubItem 2.2.2.3
-      3. SubSubItem 2.2.3
-   3. SubItem 2.3
-3. Item 3
+
+::bottom::
+
+<hr/>
+<p class="text-center">This content is displayed after the two columns.</p>
+<hr/>
 
 ---
 
