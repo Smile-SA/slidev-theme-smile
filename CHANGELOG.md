@@ -1,3 +1,13 @@
+### 0.8.0 (2023-01-25)
+
+##### New Features
+
+*  add bottom content after columns + add gap ([0cae1ee7](https://github.com/Smile-SA/slidev-theme-smile/commit/0cae1ee7e235d340613b8de43070e0c1ff0b36c0))
+
+##### Bug Fixes
+
+*  styles for title and code block ([8dc385c2](https://github.com/Smile-SA/slidev-theme-smile/commit/8dc385c251abebed919ea44e6373303caefccae1))
+
 #### 0.7.4 (2023-01-20)
 
 ##### New Features
