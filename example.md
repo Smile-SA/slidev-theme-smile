@@ -16,6 +16,18 @@ layout: intro
 <toc minDepth="2"/>
 
 ---
+
+## Title level 2
+
+### Title level 3
+
+#### Title level 4
+
+##### Title level 5
+
+###### Title level 6
+
+---
 layout: two-cols-with-title
 ---
 
