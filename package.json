@@ -50,7 +50,8 @@
         "mono": "Roboto Mono",
         "weights": "200,400,600,900",
         "fallback": false
-      }
+      },
+      "transition": "slide-left"
     }
   }
 }
