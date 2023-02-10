@@ -1,3 +1,13 @@
+#### 0.8.1 (2023-02-10)
+
+##### Chores
+
+*  switch to unocss ([1d463ec2](https://github.com/Smile-SA/slidev-theme-smile/commit/1d463ec21f8995db568bc5028e9bee9a7402bc54))
+
+##### New Features
+
+*  add default slide transition ([70a1959a](https://github.com/Smile-SA/slidev-theme-smile/commit/70a1959ac666bb2b8554f734914b28cc9d539c73))
+
 ### 0.8.0 (2023-01-25)
 
 ##### New Features
