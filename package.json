@@ -45,6 +45,7 @@
     "highlighter": "shiki",
     "lineNumbers": true,
     "defaults": {
+      "css": "unocss",
       "fonts": {
         "sans": "Roboto",
         "mono": "Roboto Mono",

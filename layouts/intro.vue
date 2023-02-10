@@ -7,7 +7,7 @@
 </style>
 
 <template>
-  <div class="slidev-layout intro">
+  <div class="slidev-layout intro text-center grid">
     <div class="my-auto">
       <slot />
     </div>
