@@ -1,3 +1,9 @@
+#### 0.8.2 (2023-04-20)
+
+##### Chores
+
+*  update dependencies ([5587d2ee](https://github.com/Smile-SA/slidev-theme-smile/commit/5587d2ee776c2922a5192732d47270367e9516b1))
+
 #### 0.8.1 (2023-02-10)
 
 ##### Chores
