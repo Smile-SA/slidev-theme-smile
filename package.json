@@ -31,13 +31,13 @@
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0",
-    "slidev": ">=0.32.1"
+    "slidev": ">=0.48.0"
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.43"
   },
   "devDependencies": {
-    "@slidev/cli": "0.x",
+    "@slidev/cli": "^0.48.0",
     "generate-changelog": "^1.8.0"
   },
   "slidev": {
